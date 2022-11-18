@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const CakeWrapper = styled.div`
   /* Cake Base */
+  position: relative;
   margin: 100px auto;
   width: 200px;
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  left: 50%;
+  .cake-body {
+  }
   .layer {
     display: block;
     background: #ffa177;
@@ -160,20 +159,20 @@ export const CakeWrapper = styled.div`
   }
   .d6 {
     top: 38px;
-    right: 47px;
+    right: -100px;
   }
   .d7 {
     top: 35px;
-    right: 30px;
+    right: -115px;
   }
   .d8 {
     top: 30px;
-    right: 15px;
+    right: -133px;
   }
   .d9 {
     height: 25px;
     top: 20px;
-    right: 0px;
+    right: -150px;
   }
 
   /* Candles */
@@ -209,7 +208,7 @@ export const CakeWrapper = styled.div`
     left: 4px;
   }
   .flame {
-    display: block;
+    display: ${(props) => (props.burn ? "block" : "none")};
     height: 16px;
     width: 8px;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
