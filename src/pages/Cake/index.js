@@ -83,7 +83,7 @@ function Cake() {
           // background: 'white'
         }}
       >
-        Made by TUẤN & HIẾU
+        Made by TUẤN & HIẾU & C.KIM ANH & C.HIẾU
       </div>
       <div style={{ position: "absolute", marginTop: "200px" }}>
         {/* <ReactMic
@@ -111,7 +111,7 @@ function Cake() {
             setBurn(false);
           }}
         >
-          Tắt
+          Thổi
         </button>
       </div>
     </CakeWrapper>
