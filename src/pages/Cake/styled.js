@@ -15,6 +15,7 @@ export const CakeWrapper = styled.div`
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     position: absolute;
+    top: 400px
   }
 
   .f1 {

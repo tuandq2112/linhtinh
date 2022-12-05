@@ -56,8 +56,37 @@ function Cake() {
           <div className="highlight"></div>
         </div>
       </div>
+      <div
+        style={{
+          color: "white",
+          left: 0,
+          fontSize: "50px",
+          position: "fixed",
+          top: 0,
+          width: "100vw",
+          textAlign: "center",
+          // background: 'white'
+        }}
+      >
+        Chúc mừng sinh nhật cô huệ
+      </div>
+
+      <div
+        style={{
+          color: "white",
+          left: 0,
+          fontSize: "50px",
+          position: "fixed",
+          bottom: 20,
+          width: "100vw",
+          textAlign: "center",
+          // background: 'white'
+        }}
+      >
+        Make by TUẤN & HIẾU
+      </div>
       <div style={{ position: "absolute", marginTop: "200px" }}>
-        <ReactMic
+        {/* <ReactMic
           visualSetting="sinewave" // defaults -> "sinewave".  Other option is "frequencyBars"
           onStop={(stop) => {}} // required - called when audio stops recording
           onData={(recordedBlob) => {
@@ -69,7 +98,7 @@ function Cake() {
           sampleRate={96000} // defaults -> 44100 (44.1 kHz).  It accepts values only in range: 22050 to 96000 (available in React-Mic-Gold)
           timeSlice={3000} // defaults -> 4000 milliseconds.  The interval at which captured audio is returned to onData callback (available in React-Mic-Gold).
           record={burn}
-        />
+        /> */}
         <button
           onClick={() => {
             setBurn(true);
