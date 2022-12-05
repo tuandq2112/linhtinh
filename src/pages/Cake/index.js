@@ -68,7 +68,7 @@ function Cake() {
           // background: 'white'
         }}
       >
-        Chúc mừng sinh nhật cô huệ
+        Chúc mừng sinh nhật cô Huệ
       </div>
 
       <div
@@ -83,7 +83,7 @@ function Cake() {
           // background: 'white'
         }}
       >
-        Make by TUẤN & HIẾU
+        Made by TUẤN & HIẾU
       </div>
       <div style={{ position: "absolute", marginTop: "200px" }}>
         {/* <ReactMic
