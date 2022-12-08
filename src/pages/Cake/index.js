@@ -68,9 +68,23 @@ function Cake() {
           // background: 'white'
         }}
       >
-        Chúc mừng sinh nhật cô Huệ
+        Chúc mừng sinh nhật Chị Yến
       </div>
 
+      <div
+        style={{
+          color: "white",
+          left: 0,
+          fontSize: "50px",
+          position: "fixed",
+          bottom: 80,
+          width: "100vw",
+          textAlign: "center",
+          // background: 'white'
+        }}
+      >
+        Chúc chị Ýn sinh nhật vui vẻ
+      </div>
       <div
         style={{
           color: "white",
@@ -83,7 +97,7 @@ function Cake() {
           // background: 'white'
         }}
       >
-        Made by TUẤN & HIẾU & C.KIM ANH & C.HIẾU
+        Made by HIẾU BẮP
       </div>
       <div style={{ position: "absolute", marginTop: "200px" }}>
         {/* <ReactMic
