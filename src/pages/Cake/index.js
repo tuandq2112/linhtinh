@@ -97,8 +97,12 @@ function Cake() {
           // background: 'white'
         }}
       >
-        Made by HIẾU BẮP
+        Made by HIẾU BẮP & HÒA NGUYỄN TRẦN & TÙNG THANH
       </div>
+      <img
+        style={{ position: "fixed ", top: 0, right: 0, width: 200, height: 300 }}
+        src={require("./yen.png")}
+      />
       <div style={{ position: "absolute", marginTop: "200px" }}>
         {/* <ReactMic
           visualSetting="sinewave" // defaults -> "sinewave".  Other option is "frequencyBars"

@@ -30,6 +30,9 @@ h1 {
 
 #audio_play{
   position: fixed;
-  bottom: 0px;
-  left: 10px;
+  bottom: 180px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
 }
