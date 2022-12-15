@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { ReactMic } from "react-mic";
 import { CakeWrapper } from "./styled";
 
 function Cake() {
@@ -62,13 +61,13 @@ function Cake() {
           left: 0,
           fontSize: "50px",
           position: "fixed",
-          top: 0,
+          top: 10,
           width: "100vw",
           textAlign: "center",
           // background: 'white'
         }}
       >
-        Chúc mừng sinh nhật Chị Yến
+        Chúc mừng sinh nhật Anh Tùng Anh 
       </div>
 
       <div
@@ -83,7 +82,7 @@ function Cake() {
           // background: 'white'
         }}
       >
-        Chúc chị Ýn sinh nhật vui vẻ
+        Chúc Anh Tùng Anh sinh nhật vui vẻ
       </div>
       <div
         style={{
@@ -97,11 +96,18 @@ function Cake() {
           // background: 'white'
         }}
       >
-        Made by HIẾU BẮP & HÒA NGUYỄN TRẦN & TÙNG THANH
+        {/* Made by C */}
       </div>
       <img
-        style={{ position: "fixed ", top: 0, right: 0, width: 200, height: 300 }}
-        src={require("./yen.png")}
+        style={{
+          position: "fixed ",
+          top: 10,
+          right: 10,
+          width: 200,
+          height: 250,
+          borderRadius: "10px",
+        }}
+        src={require("./atunganh.png")}
       />
       <div style={{ position: "absolute", marginTop: "200px" }}>
         {/* <ReactMic
