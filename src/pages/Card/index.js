@@ -1,3 +1,5 @@
+import mainLogo from "../../asset/download.jpg";
+
 export default () => (
   <div className="App">
     <div className="birthdayCard">
@@ -8,6 +10,9 @@ export default () => (
           <div className="balloonTwo" />
           <div className="balloonThree" />
           <div className="balloonFour" />
+        </div>
+        <div className="background">
+          <img src={mainLogo} alt="" />
         </div>
       </div>
       <div className="cardInside">
