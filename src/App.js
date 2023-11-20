@@ -1,17 +1,19 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Cake from "./pages/Cake";
-import FoodRandom from "./pages/FoodRandom";
-import SinhNhatCoHue from "./pages/HappyBirthday";
+import Card from "./pages/Card";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/cake" element={<Cake />} exect />
-        <Route path="/" element={<FoodRandom />} exect/>
-        <Route path="/chuc-mung-co-hue" element={<SinhNhatCoHue />} exect/>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <Card />
+    </div>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/20-11" element={<Card />} exec />
+
+    //     <Route path="/cake" element={<Cake />} exec />
+    //     <Route path="/" element={<FoodRandom />} exec />
+    //     <Route path="/chuc-mung-co-hue" element={<SinhNhatCoHue />} exec />
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
